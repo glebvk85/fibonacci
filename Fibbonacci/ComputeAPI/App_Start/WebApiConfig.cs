@@ -16,7 +16,7 @@ namespace ComputeAPI
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "api/{controller}/post",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
